@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-family: 'Loved by the King', cursive;
+  font-size: 5.5rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+
+
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 0;
+  font-size: 2rem;
+  color: #7c064d;
+  padding-bottom: 10px;
+  padding-top: 30px;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #f79f24;
+}
+p{
+  line-height: 1.5;
+}
+hr {
+  border:dotted #ffeed0 6px;
+  border-bottom: none;
+  width:6%;
+  margin: 100px auto 100px auto;
+}
+a{
+  color: #f79f24;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: #7c064d;
+}
+
+.top-container {
+  background-color: #ffeed0;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.bottom-container {
+  background-color: #ffeed0;
+  padding: 50px 0 20px;
+
+}
+
+.bottom-ball {
+  position: absolute;
+  left: 600px;
+  bottom: 400px;
+
+}
+
+.top-ball {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.code-img{
+  width: 15%;
+  float:left;
+  margin-right: 30px;
+}
+.pinball-img{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.profile-picture{
+  border-radius: 50%;
+}
+.btn {
+  background: #f12d2d;
+  background-image: -webkit-linear-gradient(top, #f12d2d, #f12d2d);
+  background-image: -moz-linear-gradient(top, #f12d2d, #f12d2d);
+  background-image: -ms-linear-gradient(top, #f12d2d, #f12d2d);
+  background-image: -o-linear-gradient(top, #f12d2d, #f12d2d);
+  background-image: linear-gradient(to bottom, #f12d2d, #f12d2d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffeed0;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7c064d;
+  text-decoration: none;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyrght{
+  color: #7c064d;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
